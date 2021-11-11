@@ -16,7 +16,7 @@ CD /D "C:\Stuff\Emailer"
 
 Emailer.exe trigger@applet.ifttt.com
 REM ***** CHANGE THIS TO THE RECIPIENT EMAIL ADDRESS *****
-Emailer.exe therobertzone@gmail.com
+Emailer.exe youremailaddress@gmail.com
 
 >> "%emailerRootPath%\Emailer_Log_%1.txt" ECHO[
 >> "%emailerRootPath%\Emailer_Log_%1.txt" ECHO %date% %time%
